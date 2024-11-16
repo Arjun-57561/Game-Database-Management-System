@@ -1,24 +1,38 @@
 🎮 Game Database Management System
+
+
+
 Welcome to the Game Database Management System project! This is a user-friendly application built with Streamlit and MySQL, allowing users to manage, update, and explore a database of video games. The project is designed to help game enthusiasts and developers keep track of game details, including titles, genres, developers, platforms, and pricing.
 
 📋 Table of Contents
+
 Features
+
 Project Structure
+
 Technologies Used
+
 Installation
+
 Usage
+
 Database Schema
+
 Contributing
-License
+
+
 🚀 Features
+
 User-Friendly Interface: Easy navigation through a sleek Streamlit app.
 Game Inventory Management: Add, update, view, and delete games in the database.
 Real-Time Database Integration: Data is stored and retrieved from a MySQL database.
 Interactive Visuals: Explore game data with interactive tables and graphics.
 Dynamic Home Page: Engaging homepage with genre selection and fun gaming statistics.
+
 📂 Project Structure
+
 sql
-Copy code
+
 Game-Database-Management-System/
 ├── app.py
 ├── db_utils.py
@@ -35,27 +49,48 @@ Game-Database-Management-System/
 │   └── logo.png
 └── sql/
     └── create_tables.sql
+    
 app.py: Main file to run the Streamlit app.
+
 db_utils.py: Database utility functions for CRUD operations.
+
 pages/: Contains different pages of the application.
+
 data/: Folder for sample data or exported files.
+
 assets/: Folder for images or other static assets.
+
 sql/: SQL scripts for creating the database and tables.
+
+
 🛠️ Technologies Used
+
 Frontend: Streamlit (Python Web Framework)
+
 Backend: MySQL
+
 Programming Language: Python
+
 Libraries:
+
 streamlit
+
 mysql-connector-python
+
 pandas
+
 🖥️ Installation
+
 Follow these steps to set up the project locally:
 
 Prerequisites
+
 Python 3.8 or higher
+
 MySQL Server
+
 Git
+
 1. Clone the Repository
 bash
 Copy code
